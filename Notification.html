@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="front-page.html">
+    <link rel="stylesheet" href="job.html">
+    <title>Notification-page</title>
+    <style>
+        a{
+        text-decoration: none;
+        color: black;
+    }
+         .card{
+        margin-top: 20px;
+        border-radius: 20px !important;
+    }
+    .footer:hover{
+        color: mediumblue !important;
+    }
+    input:active{
+        outline: none;
+    }
+    </style>
+</head>
+<body>
+    <nav class=" navbar navbar-expand-sm container" >
+
+        <div class="d-flex x-input " > 
+             <a href="#" class="navbar-brand">
+                 <img class="my-auto" src="images/small-logo.png" alt="" width="30px">
+             </a>
+             <div class="form-control bg-light d-flex p-0 pl-2 border-0"  >
+                 <i class="fa fa-search my-auto"></i>
+                 <input type="text" class=" x-input  border-0 bg-light "  placeholder=" Search">
+             </div>
+        </div>
+ 
+      <div class="navbar-collapse collapse justify-content-end">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                 <a href="front-page.html" class="nav-link mx-2">
+                     <i class="fa fa-home fa-lg ml-2 d-block"></i>
+                     <span class="small">Home</span>
+                 </a>
+              </li>
+              <li class="nav-item">
+                 <a href="#" class="nav-link mx-2">
+                     <i class="fa fa-users fa-lg ml-3  d-block"></i>
+                     <span class="small" style="width: fit-content;">My Network</span>
+                 </a>
+              </li>
+              <li class="nav-item">
+                 <a href="job.html" class="nav-link mx-2"><i class="fa fa-briefcase fa-lg d-block"></i>
+                     <span class="small">Jobs</span>
+                 </a>
+              </li>
+              <li class="nav-item">
+                 <a href="#" class="nav-link mx-2">
+                     <i class="fa fa-comment fa-lg ml-3 d-block"></i>
+                     <span class="small">Message</span>
+                 </a>
+              </li>
+              <li class="nav-item">
+                 <a href="Notification.html" class="nav-link mx-2">
+                     <i class="fa fa-bell fa-lg ml-3 d-block"></i>
+                     <span class="small">Notification</span>
+                     </a>
+              </li>
+              <li class="nav-item nav-item dropdown">
+                 <a href="#" class=" nav-link mx-2 p-2 dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                     <img src="images/oo.png" alt="" class="d-block " width="25px" >
+                     <span class="small">Me ▾</span>
+                 </a>
+                 <div class="dropdown-menu p-2">
+                     <div class=" dropdown-item">
+                             <div class="media">
+                                 <img src="images/ooo.png" alt="" class="rounded-circle">
+                                 <div class="media-body">
+                                     <h6 class="font-weight-bold">Ogunyemi Tomisin</h6>
+                                     <h6>Student at SQI</h6>
+                                 </div>
+                             </div>
+                             <div>
+                                 <button class="btn btn-outline-primary btn-light btn-sm rounded-pill float-right font-weight-bold w-100 ">View Profile</button>
+                             </div>
+                            
+                      </div>
+                      <div class="dropdown-item">
+                         <hr >
+                      </div>
+                     <div class="dropdown-item">
+                         <ul class="nav flex-column ">
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block text-secondary font-weight-bold">Account</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block">Settings & Privacy</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block">Help</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block">Language</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block text-secondary font-weight-bold">Manage</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block">Post and activity</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block">My Posted Job</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block">Sign-Out</a>
+                             </li>
+                         </ul>
+                     </div>  
+                 </div>
+              </li>
+              <li class="nav-item">
+ 
+              </li>
+              <li class="nav-item">
+                 <a href="#" class="nav-link mx-2">
+                     <i class="fa fa-chevron-right fa-lg ml-2 d-block"></i>
+                     <span class="small">Work ▾</span>
+                 </a>
+              </li>
+              <li class="nav-item">
+                 <a href="#" class="nav-link mx-2 p-1 d-block">
+                     <span class="small">Try Premium Free <br> for 1 month</span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <!-- COLLAPSE ICON -->
+      <div>
+         <a href="#" class="d-sm-none">
+             <i class="fa fa-comment fa-lg "></i>
+         </a>
+      </div>
+ </nav>
+    
+ 
+  <main class=" container-fluid bg-light">
+      <section class="row">
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <strong>Notification</strong>
+                    <p>You're all caught up! Check <br> back for new <br> notifications</p>
+                    <div class=" card-footer bg-light">
+                        <p>Improve your notifications</p>
+                        <a href="#" class="text-primary"> <strong>View settings</strong></a>
+                    </div>
+                </div>
+             </div>
+        </div>
+       <!-- SECOND -->
+           <section class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="media">
+                            <img src="images/snip-search.png" alt="">
+                            <div class="media-body">
+                                <div><strong>YOUR JOB ALERT </strong> <span class="float-right">4h</span></div>
+                                <div>
+                                    <span>Ogunyemi, 4 new jobs for <strong>Graduate Trainee</strong> in Lagos</span>
+                                    <a href="#" class="float-right"> <img src="images/snip-dot.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ml-5">
+                            <button class="btn btn-outline-primary btn-light text-primary rounded-pill font-weight-bold"> View new jobs</button>
+                        </div>
+                    </div>
+                </div>
+           </section>
+
+           <!-- THIRD -->
+           <section class="col-sm-3">
+            <main class="card">
+                <section class="card-body">
+                  <a href="#">
+                      <img src="images/real-snip.png" alt="" width="100%" >
+                  </a>
+                </section>
+            </main>
+
+                <!-- FOOTER -->
+                <main class="p-3">
+                    <div style="font-size: 12px;">
+                        <a href="#" class="mr-4 footer" style="color: lightslategray;"> About</a>
+                        <a href="#" class="mr-4 footer" style="color: lightslategray;">Accessibility</a>
+                        <a href="#" class="mr-4 footer" style="color: lightslategray;"> Help Center</a>
+                        <br>
+                        <a href="#" class="mr-4 footer" style="color: lightslategray;"> Privacy and Terms <i class="fa fa-chevron-down"></i></a>
+                        <a href="#" class="mr-4 footer" style="color: lightslategray;"> Ad Choices</a>
+                        <br>
+                         <a href="#" class="mr-4 footer" style="color: lightslategray;"> Advertising</a>
+                        <a href="#" class="mr-4 footer" style="color: lightslategray;"> Business Services <i class="fa fa-chevron-down"></i></a>
+                        <br>
+                        <a href="#" class="mr-4 footer" style="color: lightslategray;"> Get the LinkedIn app</a>
+                        <a href="#" class="mr-4 footer" style="color: lightslategray;"> More</a>
+                    </div>
+                    <div>
+                        <img src="images/snip-project.png" alt="" class="p-3">
+                        <span style="font-size: 12px;" class="p-2">LinkedIn Corporation © 2021</span>
+                    </div>
+                </main>
+
+           </section>
+
+      </section>
+  </main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

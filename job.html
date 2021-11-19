@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Job-link</title>
+    <style>
+        .card{
+            margin-top: 20px;
+            border-radius: 10px !important;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+     <!-- NAVBAR -->
+         <!-- NAVBAR -->
+    <nav class=" navbar navbar-expand-sm container" >
+
+        <div class="d-flex x-input " > 
+             <a href="#" class="navbar-brand">
+                 <img class="my-auto" src="images/small-logo.png" alt="" width="30px">
+             </a>
+             <div class="form-control bg-light d-flex p-0 pl-2 border-0"  >
+                 <i class="fa fa-search my-auto"></i>
+                 <input type="text" class=" x-input  border-0 bg-light "  placeholder=" Search">
+             </div>
+        </div>
+ 
+      <div class="navbar-collapse collapse justify-content-end">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                 <a href="front-page.html" class="nav-link mx-2">
+                     <i class="fa fa-home fa-lg ml-2 d-block"></i>
+                     <span class="small">Home</span>
+                 </a>
+              </li>
+              <li class="nav-item">
+                 <a href="#" class="nav-link mx-2">
+                     <i class="fa fa-users fa-lg ml-3  d-block"></i>
+                     <span class="small" style="width: fit-content;">My Network</span>
+                 </a>
+              </li>
+              <li class="nav-item">
+                 <a href="job.html" class="nav-link mx-2"><i class="fa fa-briefcase fa-lg d-block"></i>
+                     <span class="small">Jobs</span>
+                 </a>
+              </li>
+              <li class="nav-item">
+                 <a href="#" class="nav-link mx-2">
+                     <i class="fa fa-comment fa-lg ml-3 d-block"></i>
+                     <span class="small">Message</span>
+                 </a>
+              </li>
+              <li class="nav-item">
+                 <a href="Notification.html" class="nav-link mx-2">
+                     <i class="fa fa-bell fa-lg ml-3 d-block"></i>
+                     <span class="small">Notification</span>
+                     </a>
+              </li>
+              <li class="nav-item nav-item dropdown">
+                 <a href="#" class=" nav-link mx-2 p-2 dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                     <img src="images/oo.png" alt="" class="d-block " width="25px" >
+                     <span class="small">Me ▾</span>
+                 </a>
+                 <div class="dropdown-menu p-2">
+                     <div class=" dropdown-item">
+                             <div class="media">
+                                 <img src="images/ooo.png" alt="" class="rounded-circle">
+                                 <div class="media-body">
+                                     <h6 class="font-weight-bold">Ogunyemi Tomisin</h6>
+                                     <h6>Student at SQI</h6>
+                                 </div>
+                             </div>
+                             <div>
+                                 <button class="btn btn-outline-primary btn-light btn-sm rounded-pill float-right font-weight-bold w-100 ">View Profile</button>
+                             </div>
+                            
+                      </div>
+                      <div class="dropdown-item">
+                         <hr >
+                      </div>
+                     <div class="dropdown-item">
+                         <ul class="nav flex-column ">
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block text-secondary font-weight-bold">Account</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block">Settings & Privacy</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block">Help</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block">Language</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block text-secondary font-weight-bold">Manage</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block">Post and activity</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block">My Posted Job</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link d-block">Sign-Out</a>
+                             </li>
+                         </ul>
+                     </div>  
+                 </div>
+              </li>
+              <li class="nav-item">
+ 
+              </li>
+              <li class="nav-item">
+                 <a href="#" class="nav-link mx-2">
+                     <i class="fa fa-chevron-right fa-lg ml-2 d-block"></i>
+                     <span class="small">Work ▾</span>
+                 </a>
+              </li>
+              <li class="nav-item">
+                 <a href="#" class="nav-link mx-2 p-1 d-block">
+                     <span class="small">Try Premium Free <br> for 1 month</span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <!-- COLLAPSE ICON -->
+      <div>
+         <a href="#" class="d-sm-none">
+             <i class="fa fa-comment fa-lg "></i>
+         </a>
+      </div>
+ </nav>
+ 
+    <main class="bg-light">
+        <section class="card container">
+            <div class="card-body">
+              <a href="#" style="color: darkgrey;">
+                <span class="p-3">
+                    <img src="images/snip-ash.png" alt="">
+                    <strong>My Jobs</strong>
+                </span>
+                <span class="p-3">
+                 <img src="images/bell.png" alt="">
+                 <strong> Jobs Alert</strong>
+             </span>
+             <span class="p-3">
+                 <img src="images/salary.png" alt="">
+                 <strong> Salary</strong>
+             </span>
+             <span class="p-3">
+                 <img src="images/other.png" alt="">
+                 <strong> Skills Assessment</strong>
+             </span>
+             <span>
+                 <button class="btn btn-outline-primary rounded-pill float-right font-weight-bold">Post a free job</button>
+             </span>
+              </a>
+            </div>
+        </section>
+
+        <!-- SEARCH FOR JOBS -->
+       <main class="container">
+        <section class="card">
+            <div class="card-body" style="background-color: lightblue;">
+                <p style="font-size: 30px;" class="lead text-center">Search for your next job</p>
+                <div class="form-group row">
+                    <div class="form-control bg-white p-0 p-2 border-0 col-sm ml-3"  >
+                        <i class="fa fa-search my-auto"></i>
+                        <input type="text" class=" x-input  border-0 bg-white w-75 "  placeholder=" Search by title,skill or company">
+                    </div>
+                    <div class="form-control bg-white p-0 pl-2 border-0 col-sm ml-3"  >
+                        <i class="fa fa-send my-auto"></i>
+                        <input type="text" class=" x-input  border-0 bg-white w-75 "  placeholder="City, state or zip code">
+                    </div>
+                    <div class="col-sm-2">
+                        <button class="btn btn-primary text-white font-weight-bold rounded-pill w-75">Search</button>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <section class="card"> 
+             <div class="card-body">
+                <p class="font-weight-bold" style="font-size: 20px;">Job searches</p>
+                <div class="row">
+                    <div class="col-sm card">
+                        <div class="card-body">
+                           <a href="#">
+                            <strong>Office administrative assistant (4 new)</strong>
+                            <p>Alert on. Lagos, Lagos Nigeria </p>
+                           </a>
+                        </div>
+                    </div>
+                    <div class="col-sm card ml-2">
+                        <div class="card-body">
+                           <a href="#">
+                            <strong>Graduate Trainee (6 new)</strong>
+                            <p>Alert on. Lagos, Lagos Nigeria </p>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+         </section>
+
+            <section class="card">
+                <div class="card-body">
+                    <div class="media">
+                        <img src="images/ooo.png" alt="" class="rounded-circle">
+                     <div class="media-body">
+                        <h6>Try free to see jobs where you would be top applicant</h6>
+                        <button class="btn btn-outline-primary font-weight-bold  rounded-pill">Try free for one month</button>
+                     </div>
+                    </div>
+                </div>
+            </section>
+       </main>
+    </main>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
